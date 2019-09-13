@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com//fwlink//?linkid=834763 for more information about this file.
+  "configurations": [
+    //x64 (2017)
+    {
+      "name": "x64-Debug-v141",
+      "generator": "Visual Studio 15 2017 Win64",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64" ],
+      "buildRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\build\\${name}",
+      "cmakeCommandArgs": "/p:Platform=x64",
+      "buildCommandArgs": "-v:n",
+      "ctestCommandArgs": ""
+    },
+    //x64 (2017)
+    {
+      "name": "x64-Release-v141",
+      "generator": "Visual Studio 15 2017 Win64",
+      "configurationType": "Release",
+      "inheritEnvironments": [ "msvc_x64" ],
+      "buildRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\build\\${name}",
+      "cmakeCommandArgs": "/p:Platform=x64",
+      "buildCommandArgs": "-v:n",
+      "ctestCommandArgs": ""
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+#include "KeyFile.h"
+
+//////////////////////////////////////////////////////////////////////////
+///
+///	\brief	Main of the application
+///
+///	\return	int	... 0 for success, otherwise < 0
+///
+//////////////////////////////////////////////////////////////////////////
+int main(int argc, char *argv[])
+{
+    KeyFile keyfile;
+    keyfile.toConsole();
+    return 0;
+}
